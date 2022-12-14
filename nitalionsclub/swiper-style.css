@@ -1,0 +1,69 @@
+.swiper{
+    margin-top: 20px;
+    padding-top: 50px;
+    max-width: 1000px;
+    max-height: 680px;
+  }
+
+  .swiper-slide img{
+    width: 100%;
+    height: 680px;
+    border-radius: 6px;
+  }
+
+  .s-right2-wrap {
+    position: relative;
+    width: 100%;
+  }
+
+  .s-right2-text,
+  .s-right2-sub {
+    position: absolute;
+    width: 80%;
+    left: 10%;
+    text-align: center;
+  }
+
+  .s-right2-text {
+    top: 15%;
+    font-size: 40px;
+    white-space: pre;
+    color: navy;
+  }
+
+  .s-right2-sub {
+    top: 65%;
+    font-size: 22px;
+    color: white;
+  }
+
+/*---------------------------------------------------*/
+
+@media screen and (max-width: 430px) {
+    .s-right2-text {
+        white-space: pre;
+        top: 17%;
+        font-size: 2.5rem;
+        color: white;
+    }
+    .s-right2-text::after {
+        top: 18%;
+        font-size: 2.5rem;
+        color: white;
+    }
+    .s-right2-sub {
+        top: 52%;
+        font-size: 22px;
+        color: white;
+    }
+}
+
+.swiper-button-prev:after {
+    color: rgba(255,255,255,0.42);
+}
+.swiper-button-next:after {
+    color: rgba(255,255,255,0.42);
+}
+.swiper-pagination:after{
+    color: rgba(255,255,255,0.42);
+}
